@@ -5,7 +5,7 @@ category:
   - Third Party Integrations
 author: Mountain Bikking
 date: 2019-08-01T03:49:49.295Z
-featureImage: /uploads/mailchimp.jpg
+featureImage: /uploads/mountain-bikking-hero.jpg
 ---
 You're publishing great content! Make sure people can get it easily right in their inbox with Awake's ready to go Mailchimp integration. Follow these instructions to get your newsletter up and running
 
