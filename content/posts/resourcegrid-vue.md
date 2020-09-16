@@ -1,11 +1,11 @@
 ---
-title: ResourceGrid.vue
+title: Canyoning
 subtitle: Easily Display Grid of Posts/Categories Throughout the Site
 category:
   - About Awake
-author: Daniel Kelly
+author: Canyoning
 date: 2019-08-02T04:27:56.800Z
-featureImage: /uploads/resource-grid-hero.jpg
+featureImage: /uploads/canyoning-hero.jpg
 ---
 The `ResourceGrid` powers the grid display of both posts and categories in the Awake template. It's a powerful, fast, and flexible component to grab a grid of any size or content when you need it.
 
