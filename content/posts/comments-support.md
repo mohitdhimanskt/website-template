@@ -1,6 +1,6 @@
 ---
 title: Cycling
-subtitle: Add Comments to Posts With Disqus
+subtitle: Add Comments to Posts With Cycling
 category:
   - Test Category
 author: Daniel Kelly
