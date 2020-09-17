@@ -1,5 +1,5 @@
 ---
 name: Test Category
-image: /uploads/about-hero.jpg
+image: /uploads/himalayas.jpeg
 description: Some test description
 ---
