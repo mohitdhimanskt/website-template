@@ -1,5 +1,6 @@
 ---
-name: Third Party Integrations
-image: https://picsum.photos/1800/1801
+name: Hikking Trip
+image: /uploads/trip.jpg
+description: This is a hikking trip
 ---
 Extend the functionality of Awake with third party integrations
