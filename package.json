@@ -77,5 +77,8 @@
     "vue": "^2.6.11",
     "vue-server-renderer": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": ">=9"
   }
 }
