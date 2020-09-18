@@ -22,6 +22,10 @@ module.exports = {
     "no-console": "off",
     "vue/no-v-html": "off",
     "vue/html-self-closing": "off",
-    "nuxt/no-timing-in-fetch-data": "off"
+    "nuxt/no-timing-in-fetch-data": "off",
+    "no-useless-catch":"off",
+    "vue/require-component-is":"off",
+    "quotes":"off",
+    "lines-between-class-members":"off"
   }
 }

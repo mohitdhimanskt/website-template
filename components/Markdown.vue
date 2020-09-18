@@ -1,5 +1,5 @@
 <template>
-  <v-runtime-template class="content" :template="content"></v-runtime-template>
+  <v-runtime-template :template="content" class="content"></v-runtime-template>
 </template>
 
 <script>
