@@ -21,10 +21,10 @@
   </article>
 </template>
 <script>
-import NewsLetterForm from '~/components/NewsLetterForm'
+// import NewsLetterForm from '~/components/NewsLetterForm'
 export default {
   name: 'NewsLetterSlideOut',
-  components: { NewsLetterForm },
+  // components: { NewsLetterForm },
   data() {
     return {
       active: true
