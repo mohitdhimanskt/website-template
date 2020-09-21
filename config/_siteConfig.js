@@ -32,7 +32,7 @@ export default {
     },
     {
       name: 'Sign Up',
-      link: '/sign up'
+      link: '/signUp'
     },
     {
       name: 'Categories',
