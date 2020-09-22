@@ -31,6 +31,15 @@ export const actions = {
   }
 }
 
+export const getters = {
+  isAuthenticated(state) {
+    return state.auth.loggedIn
+  },
+
+  loggedInUser(state) {
+    return state.auth.user
+  }
+}
 function setOtherPageData(commit, siteConfig) {
   commit('set', {
     title: siteConfig.siteName,

@@ -26,6 +26,10 @@ module.exports = {
     "no-useless-catch":"off",
     "vue/require-component-is":"off",
     "quotes":"off",
-    "lines-between-class-members":"off"
+    "lines-between-class-members":"off",
+    'vue/singleline-html-element-content-newline': 'off',
+'vue/multiline-html-element-content-newline': 'off',
+"comma-dangle":"off",
+"eol-last":"off"
   }
 }

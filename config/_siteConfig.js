@@ -27,14 +27,6 @@ export default {
     //   link: '/contact'
     // },
     {
-      name: 'Login',
-      link: '/login'
-    },
-    {
-      name: 'Sign Up',
-      link: '/signUp'
-    },
-    {
       name: 'Categories',
       link: '/categories'
     }
