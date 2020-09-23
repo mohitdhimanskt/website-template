@@ -19,6 +19,7 @@
       </template>
     </main-section>
     <news-letter-form-modal />
+    <SiteWalking></SiteWalking>
   </div>
 </template>
 

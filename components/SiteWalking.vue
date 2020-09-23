@@ -1,5 +1,5 @@
 <template>
-  <walking class="site-walking">
+  <div class="site-walking">
     <h2 class="head-stl">
       <span>Walking Trips</span>
     </h2>
@@ -8,5 +8,38 @@
       landscape is like a piece of music; it must be taken at the right
       ”Discover memorable sights,stunning lakes, rich culture.
     </p>
-  </walking>
+  </div>
 </template>
+<script>
+export default {
+  name: 'SiteWalking'
+}
+</script>
+<style scoped>
+h2 span {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 70px;
+}
+.title-line h2 span {
+  font-weight: 300;
+}
+.head-stl {
+  font-weight: 700 !important;
+  font-size: 34px !important;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  color: #000;
+  font-size: 17px;
+  margin: 15px 0;
+  font-size: 30px;
+}
+</style>

@@ -56,9 +56,14 @@ export default {
     imageDimensions: '2x1', // Options: 1x1, 5x4, 4x3, 3x2, 5x3, 16x9, 2x1, 3x1, 4x5, 3x4, 2x3, 3x5, 9x16
     theme: 'boxes' // Options: boxes, grid, image-grid
   },
+  // Featured Trek
+  Featured: {
+    imageDimensions: '2x1', // Option: 1x1, 5x4, 4x3, 3x2, 5x3, 16x9, 2x1, 3x1, 4x5, 3x4, 2x3, 3x5, 9x16
+    theme: 'boxes' // Options: boxes, grid, image-grid
+  },
   // Walking Trek
   walking: {
-    theme: 'paragraph'
+    theme: 'text'
   },
   // Disqus
   disqus: {
