@@ -11,6 +11,7 @@ import SiteHero from '../components/SiteHero'
 import SiteLogo from '../components/SiteLogo'
 import SiteNav from '../components/SiteNav'
 import SiteWalking from '~/components/SiteWalking'
+import SiteFeatured from '~/components/SiteFeatured'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 
 Vue.component(CategoriesGrid.name, CategoriesGrid)
@@ -24,5 +25,6 @@ Vue.component(SiteFooter.name, SiteFooter)
 Vue.component(SiteHero.name, SiteHero)
 Vue.component(SiteLogo.name, SiteLogo)
 Vue.component(SiteNav.name, SiteNav)
+Vue.component(SiteFeatured.name, SiteFeatured)
 Vue.component(SiteWalking.name, SiteWalking)
 Vue.component(ResourceGrid.name, ResourceGrid)

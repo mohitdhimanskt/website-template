@@ -1,5 +1,5 @@
 <template>
-  <section id="top-destination" class="top-destination section">
+  <walking class="site-walking">
     <h2 class="head-stl">
       <span>Walking Trips</span>
     </h2>
@@ -8,5 +8,5 @@
       landscape is like a piece of music; it must be taken at the right
       ”Discover memorable sights,stunning lakes, rich culture.
     </p>
-  </section>
+  </walking>
 </template>

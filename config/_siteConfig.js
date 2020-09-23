@@ -58,7 +58,7 @@ export default {
   },
   // Walking Trek
   walking: {
-    theme: 'boxes'
+    theme: 'paragraph'
   },
   // Disqus
   disqus: {
