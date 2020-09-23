@@ -11,6 +11,7 @@ import SiteHero from '../components/SiteHero'
 import SiteLogo from '../components/SiteLogo'
 import SiteNav from '../components/SiteNav'
 import SiteWalking from '~/components/SiteWalking'
+import SiteHiking from '~/components/SiteHiking'
 // import SiteFeatured from '~/components/SiteFeatured'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 
@@ -27,4 +28,5 @@ Vue.component(SiteLogo.name, SiteLogo)
 Vue.component(SiteNav.name, SiteNav)
 // Vue.component(SiteFeatured.name, SiteFeatured)
 Vue.component(SiteWalking.name, SiteWalking)
+Vue.component(SiteHiking.name, SiteHiking)
 Vue.component(ResourceGrid.name, ResourceGrid)

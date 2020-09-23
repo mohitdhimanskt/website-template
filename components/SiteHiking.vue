@@ -1,18 +1,18 @@
 <template>
-  <div class="site-walking">
+  <div class="site-Hiking">
     <h2 class="head-stl">
-      <span>WALKING TRIPS</span>
+      <span>HIKING TRIPS</span>
     </h2>
     <p class="text">
-      There is nothing like walking to get the feel of a country. A fine
-      landscape is like a piece of music; it must be taken at the right
-      ”Discover memorable sights,stunning lakes, rich culture.
+      Hike through some of the enthralling trails in Nepal and Northern India,
+      amid luscious forests and spectacular sceneries all around. Spellbind your
+      heart and soul with our tailor made book hiking tour programs.
     </p>
   </div>
 </template>
 <script>
 export default {
-  name: 'SiteWalking'
+  name: 'SiteHiking'
 }
 </script>
 <style scoped>
