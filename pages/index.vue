@@ -20,7 +20,7 @@
     </main-section>
     <news-letter-form-modal />
     <SiteWalking></SiteWalking>
-    <SiteFeatured></SiteFeatured>
+    <SiteHiking></SiteHiking>
   </div>
 </template>
 

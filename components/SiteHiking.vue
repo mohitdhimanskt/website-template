@@ -1,5 +1,5 @@
 <template>
-  <div class="site-Hiking">
+  <div class="site-hiking">
     <h2 class="head-stl">
       <span>HIKING TRIPS</span>
     </h2>
