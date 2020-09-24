@@ -92,5 +92,31 @@ h3 {
   font-size: 18px;
   padding-bottom: 5px;
   text-transform: uppercase;
+  color: inherit;
+}
+.btn {
+  margin: 0 auto;
+}
+.btn {
+  color: #fff;
+  padding: 13px 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #0072bb;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: none;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  border: none;
+}
+.a {
+  color: #fff;
+  border: 1px solid transparent;
 }
 </style>
