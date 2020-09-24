@@ -1,7 +1,7 @@
 <template>
   <div class="site-walking">
     <h2 class="head-stl">
-      <span>WALKING TRIPS</span>
+      <span>Walking Trips</span>
     </h2>
     <p class="text">
       There is nothing like walking to get the feel of a country. A fine

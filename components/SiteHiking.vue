@@ -16,24 +16,26 @@
           src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
           alt="#"
         />
-      </div>
-      <div class="template">
-        <div class="left">
-          <h3>5 Days Triund Hiking Tour Himachal Pradesh</h3>
+
+        <div class="template">
+          <div class="left">
+            <h3>5 Days Triund Hiking Tour Himachal Pradesh</h3>
+          </div>
+          <a class="btn primary" href="">View More</a>
         </div>
-        <a class="btn primary" href="">View More</a>
       </div>
-      <div class="form-group">
+      <div class="section">
         <img
           src="https://lh3.googleusercontent.com/proxy/h9Zmz1ZQ612PpLG3puIjoGfx8HkVkyeqoM0rJAmJvqjizsrp70O5eHolWj4wuvZ7u7fKhSBys2w3kLXA65g7xqr60X4xcyl534DABmQDEtmvXT9UGcBR6P27Vz0BKvZtW-iwny7suCxjESlbqDOBXQ3NWw"
           alt="#"
         />
-      </div>
-      <div class="template-group">
-        <div class="left">
-          <h3>3 Days Pravati Hiking Tour Himachal Pradesh</h3>
+
+        <div class="template">
+          <div class="left">
+            <h3>3 Days Pravati Hiking Tour Himachal Pradesh</h3>
+          </div>
+          <a class="btn primary" href="">View More</a>
         </div>
-        <a class="btn primary" href="">View More</a>
       </div>
     </div>
   </div>
@@ -71,12 +73,24 @@ p {
   font-size: 23px;
 }
 .col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 250px;
+}
+.section {
   position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
 }
 </style>
