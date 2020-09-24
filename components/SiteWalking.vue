@@ -37,7 +37,7 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   text-align: center;
-  color: #000;
+  color: grey;
   font-size: 10px;
   margin: 15px 0;
   font-size: 23px;
