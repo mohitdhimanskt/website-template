@@ -10,29 +10,31 @@
         your heart and soul with our tailor made book hiking tour programs
       </p>
     </div>
-    <div class="section">
-      <img
-        src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
-        alt="#"
-      />
-    </div>
-    <div class="template">
-      <div class="left">
-        <h3>5 Days Triund Hiking Tour Himachal Pradesh</h3>
+    <div class="col-12">
+      <div class="section">
+        <img
+          src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+          alt="#"
+        />
       </div>
-      <a class="btn primary" href="">View More</a>
-    </div>
-    <div class="form-group">
-      <img
-        src="https://lh3.googleusercontent.com/proxy/h9Zmz1ZQ612PpLG3puIjoGfx8HkVkyeqoM0rJAmJvqjizsrp70O5eHolWj4wuvZ7u7fKhSBys2w3kLXA65g7xqr60X4xcyl534DABmQDEtmvXT9UGcBR6P27Vz0BKvZtW-iwny7suCxjESlbqDOBXQ3NWw"
-        alt="#"
-      />
-    </div>
-    <div class="template-group">
-      <div class="left">
-        <h3>3 Days Pravati Hiking Tour Himachal Pradesh</h3>
+      <div class="template">
+        <div class="left">
+          <h3>5 Days Triund Hiking Tour Himachal Pradesh</h3>
+        </div>
+        <a class="btn primary" href="">View More</a>
       </div>
-      <a class="btn primary" href="">View More</a>
+      <div class="form-group">
+        <img
+          src="https://lh3.googleusercontent.com/proxy/h9Zmz1ZQ612PpLG3puIjoGfx8HkVkyeqoM0rJAmJvqjizsrp70O5eHolWj4wuvZ7u7fKhSBys2w3kLXA65g7xqr60X4xcyl534DABmQDEtmvXT9UGcBR6P27Vz0BKvZtW-iwny7suCxjESlbqDOBXQ3NWw"
+          alt="#"
+        />
+      </div>
+      <div class="template-group">
+        <div class="left">
+          <h3>3 Days Pravati Hiking Tour Himachal Pradesh</h3>
+        </div>
+        <a class="btn primary" href="">View More</a>
+      </div>
     </div>
   </div>
 </template>
@@ -67,5 +69,14 @@ p {
   font-size: 10px;
   margin: 15px 0;
   font-size: 23px;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 </style>
