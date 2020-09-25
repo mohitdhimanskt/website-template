@@ -19,20 +19,11 @@
 
         <div class="template">
           <div class="left">
-            <h3>
-              <a
-                href="https://www.bookmountaintours.com/trekkinginnepal/5-days-chisapani-nagarkot-hiking-tour-nepal"
-              >
-                5 Days Triund Hiking Tour Himachal Pradesh</a
-              >
-            </h3>
+            <nuxt-link class="navbar-item" to="home-page">
+              <h3>5 Days Triund Hiking Tour Himachal Pradesh</h3>
+            </nuxt-link>
           </div>
-          <a
-            class="btn primary"
-            href="https://www.bookmountaintours.com/trekkinginnepal/5-days-chisapani-nagarkot-hiking-tour-nepal"
-          >
-            View More</a
-          >
+          <a class="btn primary" href="">View More</a>
         </div>
       </div>
       <div class="section">
@@ -43,18 +34,11 @@
 
         <div class="template">
           <div class="left">
-            <h3>
-              <a
-                href="https://www.bookmountaintours.com/sherpa-expedition-trekking/3-days-dhampus-hiking-tour-nepal"
-                >3 Days Pravati Hiking Tour Himachal Pradesh</a
-              >
-            </h3>
+            <nuxt-link class="navbar-item" to="home-page">
+              <h3>3 Days Pravati Hiking Tour Himachal Pradesh</h3>
+            </nuxt-link>
           </div>
-          <a
-            class="btn primary"
-            href="https://www.bookmountaintours.com/sherpa-expedition-trekking/3-days-dhampus-hiking-tour-nepal"
-            >View More</a
-          >
+          <a class="btn primary" href="">View More</a>
         </div>
       </div>
     </div>
