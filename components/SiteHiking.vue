@@ -87,6 +87,7 @@ p {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
   margin-top: 30px;
+  margin-right: 40px;
 }
 h3 {
   font-size: 18px;

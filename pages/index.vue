@@ -21,6 +21,7 @@
     <news-letter-form-modal />
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
+    <SiteTrekking></SiteTrekking>
   </div>
 </template>
 
