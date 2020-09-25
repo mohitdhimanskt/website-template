@@ -82,6 +82,9 @@ p {
   flex-wrap: wrap;
   margin-right: 15px;
   margin-left: 250px;
+  margin: 0 10px;
+  width: calc(25% - 20px);
+  min-height: 250px;
 }
 .section {
   position: relative;
