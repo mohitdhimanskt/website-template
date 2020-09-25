@@ -1,6 +1,6 @@
 ---
 name: Camping
-image: /uploads/himalayas.jpeg
+image: /uploads/camping-in-bir-billing-himachal-pradesh-1024x681.jpg
 description: >-
   
 
