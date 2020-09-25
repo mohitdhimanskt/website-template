@@ -13,7 +13,7 @@
       <div class="col-12">
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://renokadventures.com/wp-content/uploads/2016/09/28464279894_7b42c0574c_z-1.jpg"
             alt="#"
           />
 
@@ -28,7 +28,7 @@
         </div>
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://www.nativeplanet.com/img/2017/04/pic5-05-1491387866.jpg"
             alt="#"
           />
 
@@ -43,7 +43,7 @@
         </div>
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover-for-10-Treks-Near-Kasol.jpg"
             alt="#"
           />
 
@@ -58,7 +58,7 @@
         </div>
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_1316/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1580145945%2Fdk4v76za7xz8uap92ney.jpg"
             alt="#"
           />
 
@@ -73,7 +73,7 @@
         </div>
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://images.thrillophilia.com/image/upload/s--f5G2TFKw--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/110/565/original/1492157230_Tosh_glacier.jpg.jpg?1492157230"
             alt="#"
           />
 
@@ -88,7 +88,7 @@
         </div>
         <div class="section">
           <img
-            src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+            src="https://www.trawell.in/admin/images/upload/454282746Kullu_Kheer_Ganga_Main.jpg"
             alt="#"
           />
 
@@ -138,7 +138,7 @@ p {
   font-size: 23px;
 }
 .col-12 {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
