@@ -1,6 +1,6 @@
 ---
-name: About
-image: /uploads/about.jpeg
+name: Paragliding
+image: /uploads/1563967627_1_-1-.jpg.webp
 description: >-
   
 
