@@ -138,13 +138,20 @@ p {
   font-size: 23px;
 }
 .col-12 {
-  display: grid;
+  /* display: grid;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
   margin: 0 10px;
   width: calc(25% - 20px);
-  min-height: 250px;
+  min-height: 250px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
+  gap: calc(var(--space) * 2);
+  margin: 259px;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
 }
 .section {
   position: relative;
