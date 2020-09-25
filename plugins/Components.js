@@ -13,7 +13,7 @@ import SiteNav from '../components/SiteNav'
 import SiteWalking from '~/components/SiteWalking'
 import SiteHiking from '~/components/SiteHiking'
 import SiteTrekking from '~/components/SiteTrekking'
-// import SiteFeatured from '~/components/SiteFeatured'
+import SiteFeaturedTreks from '~/components/SiteFeaturedTreks'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 
 Vue.component(CategoriesGrid.name, CategoriesGrid)
@@ -27,7 +27,7 @@ Vue.component(SiteFooter.name, SiteFooter)
 Vue.component(SiteHero.name, SiteHero)
 Vue.component(SiteLogo.name, SiteLogo)
 Vue.component(SiteNav.name, SiteNav)
-// Vue.component(SiteFeatured.name, SiteFeatured)
+Vue.component(SiteFeaturedTreks.name, SiteFeaturedTreks)
 Vue.component(SiteWalking.name, SiteWalking)
 Vue.component(SiteHiking.name, SiteHiking)
 Vue.component(SiteTrekking.name, SiteTrekking)
