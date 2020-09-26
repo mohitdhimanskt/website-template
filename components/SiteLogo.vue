@@ -6,16 +6,12 @@
         blink: blinking
       }"
     >
-      <img
-        v-for="x in frames"
-        :key="x"
-        :src="`/logo-frames/logo-f${x - 1}.svg`"
-      />
-      <img
+      <img src="/logo-frames/foh.png" alt="far out himalayal logo" />
+      <!-- <img
         v-for="x in frames"
         :key="`${x}-r`"
         :src="`/logo-frames/logo-f${frames - x}.svg`"
-      />
+      /> -->
     </div>
   </div>
 </template>
@@ -26,14 +22,14 @@ export default {
     return {
       frames: 5,
       currentFrame: 1,
-      blinking: true
+      blinking: false
     }
   },
   mounted() {
-    setInterval(() => {
-      const rand = Math.ceil(Math.random() * 10)
-      this.blinking = rand % 2
-    }, 1000)
+    // setInterval(() => {
+    //   const rand = Math.ceil(Math.random() * 10)
+    //   this.blinking = rand % 2
+    // }, 1000)
   }
 }
 </script>
