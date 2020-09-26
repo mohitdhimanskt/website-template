@@ -28,7 +28,7 @@
       </div>
       <div class="section">
         <img
-          src="https://lh3.googleusercontent.com/proxy/h9Zmz1ZQ612PpLG3puIjoGfx8HkVkyeqoM0rJAmJvqjizsrp70O5eHolWj4wuvZ7u7fKhSBys2w3kLXA65g7xqr60X4xcyl534DABmQDEtmvXT9UGcBR6P27Vz0BKvZtW-iwny7suCxjESlbqDOBXQ3NWw"
+          src="https://lh3.googleusercontent.com/proxy/ph1on3EuJHiuvXzZmxjuWAGpwnXnzHd3CsFRsPuhs-Kp53H8Sshy7ogNJQcWIBDSe6FuEs2TS2WI0igWddl2048qtd9C0cmWvXEA9h8JEviQnxesDmVNURfhyZe7LNWe0pc-zExfXU2nsmwrvJxDc6ZCow"
           alt="#"
         />
 

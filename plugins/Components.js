@@ -10,10 +10,10 @@ import SiteFooter from '../components/SiteFooter'
 import SiteHero from '../components/SiteHero'
 import SiteLogo from '../components/SiteLogo'
 import SiteNav from '../components/SiteNav'
+import SiteFeaturedTreks from '~/components/SiteFeaturedTreks'
 import SiteWalking from '~/components/SiteWalking'
 import SiteHiking from '~/components/SiteHiking'
 import SiteTrekking from '~/components/SiteTrekking'
-import SiteFeaturedTreks from '~/components/SiteFeaturedTreks'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 
 Vue.component(CategoriesGrid.name, CategoriesGrid)
