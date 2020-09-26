@@ -28,7 +28,7 @@
       </div>
       <div class="section">
         <img
-          src="https://lh3.googleusercontent.com/proxy/h9Zmz1ZQ612PpLG3puIjoGfx8HkVkyeqoM0rJAmJvqjizsrp70O5eHolWj4wuvZ7u7fKhSBys2w3kLXA65g7xqr60X4xcyl534DABmQDEtmvXT9UGcBR6P27Vz0BKvZtW-iwny7suCxjESlbqDOBXQ3NWw"
+          src="https://mysterioustrip.com/wp-content/uploads/2020/04/Hiking-in-Himachal-Pradesh.jpg"
           alt="#"
         />
 

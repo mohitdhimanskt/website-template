@@ -2,7 +2,7 @@
   <div>
     <div class="site-trekking">
       <h2 class="head-stl">
-        <span> Trekking</span>
+        <span> Trekking Trips</span>
       </h2>
       <p class="text">
         Trek through glacial valleys, high mountain passes and pristine valleys
