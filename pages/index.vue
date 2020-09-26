@@ -19,6 +19,7 @@
       </template>
     </main-section>
     <news-letter-form-modal />
+    <SiteFeaturedTreks></SiteFeaturedTreks>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>
