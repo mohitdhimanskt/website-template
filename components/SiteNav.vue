@@ -78,7 +78,6 @@ export default {
   display: block;
 }
 h1 {
-  color: black;
   font-size: 35px;
   color: red;
 }
