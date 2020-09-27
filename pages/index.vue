@@ -19,7 +19,7 @@
       </template>
     </main-section>
     <news-letter-form-modal />
-    <SiteFeaturedTreks></SiteFeaturedTreks>
+    <SiteFeaturedTreks image="/uploads/contact-person.jpg"></SiteFeaturedTreks>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>

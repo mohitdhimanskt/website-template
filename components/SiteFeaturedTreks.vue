@@ -1,44 +1,46 @@
 <template>
-  <div class="card">
-    <div class="card-image">
-      <component :is="link ? 'nuxt-link' : 'span'" :to="link">
-        <figure :class="`image is-${imageRatioClass}`">
-          <opti-image
-            v-if="image"
-            :src="responsiveImage.src"
-            :srcset="responsiveImage.srcSet"
-            :width="imageRatio[0]"
-            :height="imageRatio[1]"
-            :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
-          />
-          <loading-spinner position="absolute" />
-        </figure>
-      </component>
-    </div>
-    <div class="card-content">
-      <div class="media">
-        <div class="media-content">
-          <nuxt-link :to="link">
-            <h3
-              :class="
-                `title
+  <div>
+    <div class="card">
+      <div class="card-image">
+        <component :is="link ? 'nuxt-link' : 'span'" :to="link">
+          <figure :class="`image is-${imageRatioClass}`">
+            <opti-image
+              v-if="image"
+              :src="responsiveImage.src"
+              :srcset="responsiveImage.srcSet"
+              :width="imageRatio[0]"
+              :height="imageRatio[1]"
+              :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
+            />
+            <loading-spinner position="absolute" />
+          </figure>
+        </component>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <nuxt-link :to="link">
+              <h3
+                :class="
+                  `title
                 is-5
                 has-text-weight-light
                 ${title ? '' : 'empty-content-placeholder'}`
-              "
-            >
-              {{ title }}
-            </h3>
-            <h4
-              :class="{
-                subtitle: true,
-                'is-6': true,
-                'empty-content-placeholder': !$slots.default
-              }"
-            >
-              <slot></slot>
-            </h4>
-          </nuxt-link>
+                "
+              >
+                {{ title }}
+              </h3>
+              <h4
+                :class="{
+                  subtitle: true,
+                  'is-6': true,
+                  'empty-content-placeholder': !$slots.default
+                }"
+              >
+                <slot></slot>
+              </h4>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
