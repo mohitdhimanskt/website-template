@@ -3,11 +3,12 @@
     <h2 class="head-stl">
       <span>Featured Trips</span>
     </h2>
-    <p class="text"></p>
-    Lose yourself to the magnificence of nature and its captivating beauty with
-    our assortment of featured treks. Book trekking tours as this would be your
-    chance to explore untouched and unspoiled beauty of varied landscapes,
-    arresting trails and exhilarating mountain peaks.
+    <p class="text">
+      Lose yourself to the magnificence of nature and its captivating beauty
+      with our assortment of featured treks. Book trekking tours as this would
+      be your chance to explore untouched and unspoiled beauty of varied
+      landscapes, arresting trails and exhilarating mountain peaks.
+    </p>
   </div>
 </template>
 <script>
@@ -38,7 +39,6 @@ p {
   margin-inline-end: 0px;
   text-align: center;
   color: black;
-  font-size: 10px;
   margin: 15px 0;
   font-size: 23px;
 }
