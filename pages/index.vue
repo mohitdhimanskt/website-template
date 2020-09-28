@@ -20,8 +20,12 @@
     </main-section>
     <news-letter-form-modal />
     <SiteFeaturedTreks
-      title="trek"
+      title="5 days of tour in himachal"
       image="/uploads/contact-person.jpg"
+    ></SiteFeaturedTreks>
+    <SiteFeaturedTreks
+      title="3 Days of tour in himachal pradesh"
+      image="/uploads/mountain-bikking-hero.jpg"
     ></SiteFeaturedTreks>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
