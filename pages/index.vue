@@ -27,6 +27,14 @@
       title="3 Days of tour in himachal pradesh"
       image="/uploads/mountain-bikking-hero.jpg"
     ></SiteFeaturedTreks>
+    <SiteFeaturedTreks
+      title="12 Days OF tour in himachal pradesh"
+      image="/uploads/trek2.jpg"
+    ></SiteFeaturedTreks>
+    <SiteFeaturedTreks
+      title="16 Days of tour in himachal pradesh"
+      image="/uploadswalk.jpg"
+    ></SiteFeaturedTreks>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>
