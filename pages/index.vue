@@ -33,7 +33,7 @@
     ></SiteFeaturedTreks>
     <SiteFeaturedTreks
       title="16 Days of tour in himachal pradesh"
-      image="/uploadswalk.jpg"
+      image="/uploads/walk.jpg"
     ></SiteFeaturedTreks>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
