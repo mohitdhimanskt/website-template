@@ -49,7 +49,7 @@
 <script>
 const imageDimensionDefault = '16x9'
 export default {
-  name: 'SiteFeaturedTreks',
+  name: 'SiteFeaturedCard',
   props: {
     title: { type: String, default: '' },
     image: { type: String, default: '' },
