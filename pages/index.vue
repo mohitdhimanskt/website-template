@@ -19,22 +19,23 @@
       </template>
     </main-section>
     <news-letter-form-modal />
-    <SiteFeaturedTreks
+    <SiteFeaturedTemplate></SiteFeaturedTemplate>
+    <SiteFeaturedCard
       title="5 days of tour in himachal"
       image="/uploads/contact-person.jpg"
-    ></SiteFeaturedTreks>
-    <SiteFeaturedTreks
+    ></SiteFeaturedCard>
+    <SiteFeaturedCard
       title="3 Days of tour in himachal pradesh"
       image="/uploads/mountain-bikking-hero.jpg"
-    ></SiteFeaturedTreks>
-    <SiteFeaturedTreks
+    ></SiteFeaturedCard>
+    <SiteFeaturedCard
       title="12 Days OF tour in himachal pradesh"
       image="/uploads/trek2.jpg"
-    ></SiteFeaturedTreks>
-    <SiteFeaturedTreks
+    ></SiteFeaturedCard>
+    <SiteFeaturedCard
       title="16 Days of tour in himachal pradesh"
       image="/uploads/walk.jpg"
-    ></SiteFeaturedTreks>
+    ></SiteFeaturedCard>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>
