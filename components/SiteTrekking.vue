@@ -2,7 +2,7 @@
   <div>
     <div class="site-trekking">
       <h2 class="head-stl">
-        <span> Trekking Trips</span>
+        <span> Trekking</span>
       </h2>
       <p class="text">
         Trek through glacial valleys, high mountain passes and pristine valleys
@@ -124,7 +124,6 @@ h2 span {
   font-weight: 700 !important;
   font-size: 34px !important;
 }
-
 p {
   display: block;
   margin-block-start: 1em;
