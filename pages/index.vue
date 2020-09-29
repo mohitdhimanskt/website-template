@@ -36,6 +36,10 @@
       title="16 Days of tour in himachal pradesh"
       image="/uploads/walk.jpg"
     ></SiteFeaturedCard>
+    <SiteFeaturedCard
+      title="18 Days of tour in himachal pradesh"
+      image="/uploads/jeepsafari-hero.jpg"
+    ></SiteFeaturedCard>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>
