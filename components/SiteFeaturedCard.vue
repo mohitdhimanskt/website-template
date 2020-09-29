@@ -111,13 +111,6 @@ export default {
   display: none;
 }
 .col-12 {
-  /* display: grid;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  margin: 0 10px;
-  width: calc(25% - 20px);
-  min-height: 250px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
   gap: calc(var(--space) * 2);
@@ -133,7 +126,6 @@ export default {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  margin-top: 30px;
   margin-right: 40px;
 }
 h3 {
