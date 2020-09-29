@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="card">
-      <div class="card-image">
+    <div class="col-12">
+      <div class="section">
         <component :is="link ? 'nuxt-link' : 'span'" :to="link">
           <figure :class="`image is-${imageRatioClass}`">
             <opti-image
@@ -16,7 +16,7 @@
           </figure>
         </component>
       </div>
-      <div class="card-content">
+      <div class="template">
         <div class="media">
           <div class="media-content">
             <nuxt-link :to="link">
@@ -107,6 +107,38 @@ export default {
 <style lang="scss">
 .opti-image-loaded + .spinner-wrapper {
   display: none;
+}
+.col-12 {
+  /* display: grid;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin: 0 10px;
+  width: calc(25% - 20px);
+  min-height: 250px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
+  gap: calc(var(--space) * 2);
+  margin: 259px;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+.section {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  color: inherit;
 }
 .card img {
   transition: 0.8s ease-in-out all;
