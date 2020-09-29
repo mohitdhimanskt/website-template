@@ -40,6 +40,10 @@
       title="18 Days of tour in himachal pradesh"
       image="/uploads/jeepsafari-hero.jpg"
     ></SiteFeaturedCard>
+    <SiteFeaturedCard
+      title="20 Days Of tour in himachal pradesh"
+      image="/uploads/trip.jpg"
+    ></SiteFeaturedCard>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
     <SiteTrekking></SiteTrekking>
