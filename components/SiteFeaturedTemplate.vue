@@ -1,18 +1,19 @@
 <template>
-  <div class="site-featuredtreks">
+  <div class="site-Featured">
     <h2 class="head-stl">
       <span>Featured Trips</span>
     </h2>
     <p class="text">
-      There is nothing like walking to get the feel of a country. A fine
-      landscape is like a piece of music; it must be taken at the right
-      ”Discover memorable sights,stunning lakes, rich culture.
+      Lose yourself to the magnificence of nature and its captivating beauty
+      with our assortment of featured treks. Book trekking tours as this would
+      be your chance to explore untouched and unspoiled beauty of varied
+      landscapes, arresting trails and exhilarating mountain peaks.
     </p>
   </div>
 </template>
 <script>
 export default {
-  name: 'SiteFeaturedTreks'
+  name: 'SiteFeaturedTemplate'
 }
 </script>
 <style scoped>
@@ -38,7 +39,6 @@ p {
   margin-inline-end: 0px;
   text-align: center;
   color: black;
-  font-size: 10px;
   margin: 15px 0;
   font-size: 23px;
 }
