@@ -15,31 +15,33 @@
             <loading-spinner position="absolute" />
           </figure>
         </component>
-      </div>
-      <div class="template">
-        <div class="media">
-          <div class="media-content">
-            <nuxt-link :to="link">
-              <h3
-                :class="
-                  `title
+
+        <div class="template">
+          <div class="media">
+            <div class="media-content">
+              <nuxt-link :to="link">
+                <h3
+                  :class="
+                    `title
                 is-5
                 has-text-weight-light
                 ${title ? '' : 'empty-content-placeholder'}`
-                "
-              >
-                {{ title }}
-              </h3>
-              <h4
-                :class="{
-                  subtitle: true,
-                  'is-6': true,
-                  'empty-content-placeholder': !$slots.default
-                }"
-              >
-                <slot></slot>
-              </h4>
-            </nuxt-link>
+                  "
+                >
+                  {{ title }}
+                </h3>
+                <h4
+                  :class="{
+                    subtitle: true,
+                    'is-6': true,
+                    'empty-content-placeholder': !$slots.default
+                  }"
+                >
+                  <slot></slot>
+                </h4>
+              </nuxt-link>
+              <a class="btn primary" href="">View More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -139,6 +141,27 @@ h3 {
   padding-bottom: 5px;
   text-transform: uppercase;
   color: inherit;
+}
+.btn {
+  margin: 0 auto;
+}
+.btn {
+  color: #fff;
+  padding: 13px 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #0072bb;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: none;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  border: none;
 }
 .card img {
   transition: 0.8s ease-in-out all;
