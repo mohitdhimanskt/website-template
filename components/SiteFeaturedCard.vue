@@ -111,9 +111,9 @@ export default {
   display: none;
 }
 .col-12 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
-  gap: calc(var(--space) * 2);
+  display: flex;
+  // grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
+  // gap: calc(var(--space) * 2);
   margin: 259px;
   padding: 0;
   list-style: none;
