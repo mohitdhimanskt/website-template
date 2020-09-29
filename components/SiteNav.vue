@@ -13,6 +13,7 @@
           :alt="$siteConfig.siteName"
           class="logo"
         />
+        <h1>FarOutHimalayas</h1>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -75,5 +76,11 @@ export default {
 
 .navbar-menu a {
   display: block;
+}
+h1 {
+  color: red;
+  margin-left: -150px;
+  font-style: italic;
+  font-size: 35px;
 }
 </style>
