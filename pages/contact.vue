@@ -27,10 +27,10 @@
               <br />
               <div class="content">
                 <p>
-                  <strong>
+                  <!-- <strong>
                     Edit this page in<code>/pages/contact.vue</code>to fit your
                     needs.
-                  </strong>
+                  </strong> -->
                 </p>
                 <p>
                   This form doesn't actually work but would be easy enough to
