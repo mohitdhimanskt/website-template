@@ -7,61 +7,10 @@ author: Daniel Kelly
 date: 2019-07-24T19:59:59.000Z
 featureImage: /uploads/cycling.jpg
 ---
-Disqus brings the power of commenting to the Awake template. It provides features like moderation, reactions, filtering, and social sharing out of the box. Best of all, it's free and super easy to setup!
+Our Cycling tour to Spiti gives you the high of biking in the Himachal without having to push your body to its limits. Unlike our tour in Ladakh in which you get to cross some of the highest passes in the world, the Himachal Spiti Cycling tour is physically less demanding, but the landscape is just as otherworldly.
 
-## Step 1
+A world within a world’ is how Rudyard Kipling described Spiti valley, and we think the Nobel laureate was right on the money. It’s not until you leave behind the apple orchards and lush green mountains of Kinnaur in the North Indian state of Himachal Pradesh and enter the sparsely vegetated cold desert mountains of Spiti that the heft of Kipling’s words begins to sink in. It wouldn’t be a stretch to call this landscape Martian. The intriguing hues and colors of the mountains can easily kindle the geologist in you. Cyclists have been known to spend endless moments gawping at the lay of the land while crossing a pass or rounding a high hairpin bend.
 
-Go to disqus.com and click on "Get Started"
+Starting out at the altitude of 2700 meters above sea level, the route through Spiti Valley takes you as low as 980m and as high as 4079m. On the way, you will come upon ancient trade routes, pass by quaint villages, and visit famous monasteries. Buddhism is the major religion of people in Spiti region and the local culture is a far cry from urban ways.
 
-![Screenshot of Disqus homepage](/uploads/disqus-get-started.jpg)
-
-## Step 2
-
-Choose "I want to install Disqus on my site"
-
-![Disqus button "I want to install Disqus on my site"](/uploads/disqus-add-to-website.jpg)
-
-## Step 3
-
-Sign-up or sign in
-
-## Step 4
-
-Enter site name, Disqus URL and select a category. The Disqus URL name is your site’s name in your account where you can access all the required settings.
-
-## Step 5
-
-Select a plan. There are several premium versions available, but don't worry the free one works just great too!
-
-## Step 6
-
-Disqus supports a number of different platforms but also works great in static sites like Awake. Scroll to the very bottom of the list and choose: "I don't see my platform listed, install manually with"
-
-![Disqus button "I don't see my platform listed, install manually with"](/uploads/disqus-platform-button.jpg)
-
-## Step 7
-
-You can ignore everything on this page, as the Awake template has already configured it for you. All you have to do is find your "Site Short Name" (it's the first part of the url) and add it to `config/_siteConfig.js`.
-
-Take it from here:
-
-![Site Short Name in url](/uploads/disqus-site-short-name.jpg)
-
-and put it here:
-
-```
-// config/_siteConfig.js
-export default {
-...
-// Disqus
-  disqus: {
-    on: false,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'testing-bjsj2bjl0i'
-  },
-}
-```
-
-## Step 8
-
-That's it! You've got comments up and running on your site. Go checkout a post and see your new fancy comments section.
+Our itinerary has been drawn to give you the best cycling experience under the circumstances. There may be some short steep ascents on which you gain more than 800 meters while cycling over a distance of just 15 km, but such challenges are par for the course. No two days of rough and tough cycling are put back to back. Our experienced guides and support staff for Cycling in Spiti Valley in Himachal will always be at hand throughout the tour, should you need any assistance.
