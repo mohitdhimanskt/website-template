@@ -7,30 +7,7 @@ author: Canyoning
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/canyoning-hero.jpg
 ---
-The `ResourceGrid` powers the grid display of both posts and categories in the Awake template. It's a powerful, fast, and flexible component to grab a grid of any size or content when you need it.
+Canyoning is a brand new adventure activity that has taken Manali by storm. An amalgamation of rock-climbing and rappelling, canyoning is done on waterfalls. You are harnessed safely and then you have to climb the slippery rocks, in the face of rapidly flowing water. Sounds very exciting, right? You will feel the raw power of the waterfalls, and enjoy being immersed in a world hitherto unexplored. But canyoning at Vashishth is not only about climbing waterfalls, but you can also jump off cliffs, plunge down slippery rocks like a water slide and take a breather in a shallow pool of water at the foot of a waterfall. The most famous and popular place is at Vashishth, where four waterfalls are available for climbing.
 
-| Prop     | Description                                          | Type   | Default           |
-| -------- | ---------------------------------------------------- | ------ | ----------------- |
-| perRow   | how many resources to displayed per row              | Number | 3                 |
-| number   | total number of resources to display                 | Number | all (lazy loaded) |
-| category | for posts filters posts only in supplied category(s) | Array  | \[]               |
-| resource | the resource to be retrieved and displayed           | String | Required          |
+Canyoning at Vashishth is best done during the months of June to August, since rains won’t dull the experience anyway. The winters are more apt for snow sports, but the monsoons are perfect for canyoning, with the water temperature being just right to cool you down but not freeze you. When in Manali, make sure that you experience canyoning at least once, to take back home adrenaline-spiking memories to last a life time.
 
-There are 2 simple wrappers built around the `ResourceGrid` for easily displaying a categories grid or a posts grid, easily enough they are `CategoriesGrid` and `PostsGrid`.
-
-## Examples
-```
-<--! All posts in grid with 3 per row lazy loaded until no more-->
-<posts-grid />
-
-<--! 3 posts in grid in single row -->
-<posts-grid :number="3" />
-
-<--! 3 posts in grid in single row in category-1 (exactly how related posts at end of single post is accomplished) -->
-<posts-grid :number="3" :category="['category-1']" />
-
-<--! All categories in grid with 3 per row lazy loaded until no more-->
-<categories-grid />
-
-<--! etc -->
-```
