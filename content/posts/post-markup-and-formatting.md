@@ -1,177 +1,25 @@
 ---
 title: Jeep Safari
-subtitle: All the Tags You Need to Make Clean and Expressive Posts
+subtitle: Himalayan Motorsport
 category:
   - About Awake
 author: Jeep Safari
 date: 2019-07-04T03:02:00.000Z
 featureImage: /uploads/jeepsafari-hero.jpg
 ---
-Awake uses the awesome npm package [markdown-it ](https://github.com/markdown-it/markdown-it)by [Vitaly Puzrin](https://github.com/puzrin) to provide a wealth of markup options for your posts
+Himalayan Motorsport Association
+The Himalayan Motorsport Association was formed in 1999 with the aim of conducting motorsporting events in the Himalayan regions of Himachal Pradesh, Jammu and Kashmir and Uttarakhand.
 
-# h1 Heading
+The association is registered as a society under the Registrar of Societies Act 1814 at Shimla where the association has its registered office.
 
-## h2 Heading
+HMA is a non - profit society that donates its surplus income for worthy causes. In 2012, Himalayan Motorsport donated Rs. 10 lakhs to the Deputy Commissioner Leh towards relief work conducted for the victims of the cloudburst that struck Ladakh. HMA also supports Umang, a society in Jaipur that is involved with educating children with special needs. As part of its social responsibility program, HMA organizes rallies for 'blind navigators' in Delhi and Rajasthan.
 
-### h3 Heading
+All members of HMA have been associated with motorsport for the last 20 to 30 years as rally drivers or organizers, across the country. Many are qualified Scrutineers and Stewards who have current Scrutineer and Steward licenses from the FMSCI.
 
-#### h4 Heading
+The Himalayan Motorsport Association is a Council Member Club of the Federation of Motorsports Clubs of India (FMSCI), Chennai. About 500 clubs are members of the Federation of which eight are appointed as Council Members.
 
-##### h5 Heading
+HMA is the first Indian Club (in 2001) to have its event - the Raid de Himalaya - inscribed on the International Off Road Rallies Calendar with the FIA (Paris) and the FIM (Geneva). There are 12 such events worldwide and the Raid de Himalaya is one of them.
 
-###### h6 Heading
+Internationally reputed to be the "highest motorsport event in the world", the Raid de Himalaya was created by HMA and has been organized and conducted by the club for the past 15 years consecutively.
 
-## Horizontal Rules
-
-- - -
-
-## Typographic replacements
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-## Emphasis
-
-**This is bold text**
-
-**This is bold text**
-
-_This is italic text_
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-
-## Lists
-
-Unordered
-
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
-  * Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-58. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-```
-// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-```
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-## Links
-
-[link text](https://danielkelly.io)
-
-[link with title](https://danielkelly.io "title text!")
-
-Autoconverted link https://danielkelly.io
-
-## Images
-
-![cat](/uploads/cat-1045782_1920.jpg)
-
-## Subscript/SuperScript
-
-* 19^th^
-* H\~2\~O
-
-## Footnotes
-
-Footnote 1 link\[^first].
-
-Footnote 2 link\[^second].
-
-Inline footnote^\[Text of inline footnote] definition.
-
-Duplicated footnote reference\[^second].
-
-\[^first]: Footnote **can have markup**
-
-```
-and multiple paragraphs.
-```
-
-\[^second]: Footnote text.
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with _inline markup_
-
-:   Definition 2
-
-```
-    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-```
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  \~ Definition 2a
-  \~ Definition 2b
+Other events run by HMA include the Dhorra Kross (Desert 4 x 4 training in Rajasthan) and the Ice Kross (Snow and Ice 4 x 4 training in Himachal/ Kashmir). Both these events are organized annually and showcase HMA's expertise in the field of cross country driving.
