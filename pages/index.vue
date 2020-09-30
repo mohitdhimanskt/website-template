@@ -46,6 +46,14 @@
     ></SiteFeaturedCard>
     <SiteWalking></SiteWalking>
     <SiteHiking></SiteHiking>
+    <SiteHikingCard
+      title="5 Days Triund Hiking Tour Himachal Pradesh"
+      image="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+    ></SiteHikingCard>
+    <SiteHikingCard
+      title="3 Days Pravati Hiking Tour Himachal Pradesh"
+      image="https://i1.wp.com/www.inditrip.in/wp-content/uploads/2018/06/5509798756_c2e02970cb_z.jpg?fit=600%2C300&ssl=1"
+    ></SiteHikingCard>
     <SiteTrekking></SiteTrekking>
   </div>
 </template>
