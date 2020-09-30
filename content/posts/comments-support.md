@@ -1,6 +1,6 @@
 ---
 title: Cycling
-subtitle: Add Comments to Posts With Cycling
+subtitle: Cycling Events
 category:
   - Test Category
 author: Daniel Kelly
