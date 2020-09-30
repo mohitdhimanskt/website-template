@@ -7,7 +7,7 @@ author: Expedition Climbing
 date: 2019-07-29T17:30:16.858Z
 featureImage: /uploads/expeditionclimbing-hero.jpg
 ---
-<!--StartFragment-->
+
 
 Himachal, famously known as the "Land of the snow", is one of the most mesmerizing and charming states of India. It has a rich as well as varied landscape, from sterile mountain capes to lush green thick forests, from the verdant green meadows to fertile plains. Himachal Pradesh is a stunning destination for a tourist seeking fun and solitude, or a naturalist who wants to take pleasure in the fresh air and stimulating nature, and an adventure enthusiast who wants to feel and experience the most memorable trekking trip in Himachal. Himachal has unlimited offers of peak climbing for the first time climbers as well as great experienced mountaineers. Its extensive valleys, extravagant landscapes and passes are still isolated, waiting to be experienced and explored by the travelers or tourists. Himachal is truly a blessing. It acts as a paradise for the enthusiastic and passionate trekkers, walkers, mountaineers, climbers, rafters, skiers and hikers. Countless trekking expeditions can be experienced or culminated in the captivating valleys of Manali and Kullu. Himachal Pradesh has numerous peaks that can pose challenges to the mountaineers or trekkers.
 
@@ -46,5 +46,3 @@ Being the 2nd highest peak in the Himachal Pradesh province, a British service t
 ### 8. Mt. Hanuman Tibba (5860 Meters)
 
 A technical and superb peak (lying near Manali) for climbing the Western Himalayas with an elevation of 19220 ft. With a steep ascent, Mount Hanuman Tibba is similar to a pyramid comprising of different looks on each of its sides. The unique and charming tour is wonderful for the adventure enthusiasts who are having the passion to get drenched into the nature's pulchritude.
-
-<!--EndFragment-->
