@@ -6,7 +6,7 @@
         blink: blinking
       }"
     >
-      <img src="/logo-frames/foh.png" alt="far out himalayal logo" />
+      <img src="/logo-frames/foh.png" alt="far out himalayas logo" />
       <!-- <img
         v-for="x in frames"
         :key="`${x}-r`"

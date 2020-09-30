@@ -114,9 +114,8 @@ export default {
   display: flex;
   // grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
   // gap: calc(var(--space) * 2);
-  margin: 259px;
+  margin: 10px;
   padding: 0;
-  list-style: none;
   margin-top: 10px;
 }
 .section {

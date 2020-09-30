@@ -21,23 +21,23 @@
     <news-letter-form-modal />
     <SiteFeaturedTemplate></SiteFeaturedTemplate>
     <SiteFeaturedCard
-      title="5 days of tour in himachal"
+      title="5 days of Dharmshala tour in himachal"
       image="/uploads/himalayas.jpeg"
     ></SiteFeaturedCard>
     <SiteFeaturedCard
-      title="3 Days of tour in himachal pradesh"
+      title="3 Days of Bir tour in himachal pradesh"
       image="/uploads/mountain-bikking-hero.jpg"
     ></SiteFeaturedCard>
     <SiteFeaturedCard
-      title="12 Days OF tour in himachal pradesh"
+      title="12 Days Of tour in himachal pradesh"
       image="/uploads/trek2.jpg"
     ></SiteFeaturedCard>
     <SiteFeaturedCard
-      title="16 Days of tour in himachal pradesh"
+      title="16 Days of  Kheer Ganga tour in himachal pradesh"
       image="/uploads/walk.jpg"
     ></SiteFeaturedCard>
     <SiteFeaturedCard
-      title="18 Days of tour in himachal pradesh"
+      title="18 Days of Pravati tour in himachal pradesh"
       image="/uploads/jeepsafari-hero.jpg"
     ></SiteFeaturedCard>
     <SiteFeaturedCard
