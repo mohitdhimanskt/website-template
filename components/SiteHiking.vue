@@ -10,7 +10,7 @@
         your heart and soul with our tailor made book hiking tour programs
       </p>
     </div>
-    <div class="col-12">
+    <!-- <div class="col-12">
       <div class="section">
         <img
           src="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
@@ -41,7 +41,7 @@
           <a class="btn primary" href="">View More</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -76,7 +76,7 @@ p {
   margin: 15px 0;
   font-size: 23px;
 }
-.col-12 {
+/* .col-12 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -122,6 +122,6 @@ h3 {
 }
 .a {
   color: #fff;
-  border: 1px solid transparent;
-}
+  border: 1px solid transparent; */
+/* } */
 </style>
