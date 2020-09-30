@@ -1,40 +1,14 @@
 ---
 title: Mountain Bikking
-subtitle: Awake Integrates with Mailchimp for Easy Newsletter Management
+subtitle: Mountain Bikking
 category:
   - Third Party Integrations
 author: Mountain Bikking
 date: 2019-08-01T03:49:49.295Z
 featureImage: /uploads/mountain-bikking-hero.jpg
 ---
-You're publishing great content! Make sure people can get it easily right in their inbox with Awake's ready to go Mailchimp integration. Follow these instructions to get your newsletter up and running
+Mountain biking is a famous adventure sport, especially for the rough and tough travelers, where one travels through the hard terrains on specially designed mountain bikes. The sport requires a large amount of stamina and endurance, and the strength to handle all conditions.
 
-## 1. Signup with Mailchimp
+Mountain biking tours Himachal takes you through the towns, the remote villages, old museums and palaces, the mountain ranges and valleys, and many more spectacular sights. Mountain biking expedition to Himachal gives you a chance to visit even the deep interiors of the state, and have the feel of living in high ranges. There is the mountain bike tour Shimla Himachal, where you get to tour the capital city of the state on cycles.
 
-If you don't already have a mailchimp account, head on over to [mailchimp.com](https://mailchimp.com) and sign up (don't worry they have free tiers that will give you all you probably need).
-
-## 2. Create a New Campaign
-
-Go to "Campaigns" in the main navigation of the Mailchimp dashboard and then click the "Create Campaign" button on the top right.
-
-## 3. Start Signup Form
-
-From the modal overlay that appears choose "Signup Form", then click "Begin" under "Embedded Form"
-
-![Mailchimp create signup form](/uploads/screen-shot-2019-08-01-at-1.03.08-pm.png)
-
-## 4. Get Form Action
-
-Under "Copy/paste onto your site" you'll see the markup  for the newsletter form. Just copy the form action value from the form
-
-![copy form action from mailchimp](/uploads/screen-shot-2019-08-01-at-1.05.09-pm.png)
-
-## 5. Add the Action to the Awake Site Configuration
-
-```
-// Can be the form action on a mail chimp form, a hubspot form,
-// or any other url you want to post the form data tomailchimp: {
-    on: true,
-    formAction:'enter url here'
-}
-```
+An annual mountain bike race, the MTB Himachal, is held in the state every year in the month of October. It is held under various categories and gives a chance to explore the mountain & valley on bike in the Himachal.
