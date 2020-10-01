@@ -15,7 +15,8 @@ import SiteFeaturedCard from '~/components/SiteFeaturedCard'
 import SiteWalking from '~/components/SiteWalking'
 import SiteHiking from '~/components/SiteHiking'
 import SiteHikingCard from '~/components/SiteHikingCard'
-import SiteTrekking from '~/components/SiteTrekking'
+import SiteTrekking from '~/components/SiteTrekkingCard'
+import SiteTrekkingCard from '~/components/SiteTrekking'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 
 Vue.component(CategoriesGrid.name, CategoriesGrid)
@@ -35,4 +36,5 @@ Vue.component(SiteWalking.name, SiteWalking)
 Vue.component(SiteHiking.name, SiteHiking)
 Vue.component(SiteHikingCard.name, SiteHikingCard)
 Vue.component(SiteTrekking.name, SiteTrekking)
+Vue.component(SiteTrekkingCard.name, SiteTrekkingCard)
 Vue.component(ResourceGrid.name, ResourceGrid)
