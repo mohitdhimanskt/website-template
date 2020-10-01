@@ -10,7 +10,8 @@
         porters. Whether you are an avid trekker or just starting out, our range
         of trekking trip programs will accommodate your every need
       </p>
-      <div class="col-12">
+    </div>
+    <!-- <div class="col-12">
         <div class="section">
           <img
             src="https://renokadventures.com/wp-content/uploads/2016/09/28464279894_7b42c0574c_z-1.jpg"
@@ -102,7 +103,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -152,7 +153,7 @@ p {
   list-style: none;
   margin-top: 10px;
 }
-.section {
+/* .section {
   position: relative;
   border-radius: 3px;
   border: 1px solid #e7e7e7;
@@ -192,5 +193,5 @@ h3 {
 .a {
   color: #fff;
   border: 1px solid transparent;
-}
+} */
 </style>
