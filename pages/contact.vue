@@ -55,7 +55,36 @@
         <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
       </template>
+      >
     </main-section>
+    <client-only>
+      <div class="customMap">
+        <google-map
+          id="map"
+          ref="Map"
+          :center="defaultMapOptions.center"
+          :zoom="defaultMapOptions.zoom"
+          :options="defaultMapOptions"
+          map-type-id="terrain"
+        >
+          <!-- <google-map-marker
+          :key="index"
+          v-for="(infowindow, index) in infoWindowsList"
+          :position="infowindow.position"
+          @click="toggleInfoWindow(infowindow)"
+        ></google-map-marker> -->
+          <google-map-infowindow
+            :position="infoWIndowContext.position"
+            :show.sync="showInfo"
+            :options="{ maxWidth: 300 }"
+            @info-window-clicked="infoClicked"
+          >
+            <h4>Test</h4>
+            <p>test</p>
+          </google-map-infowindow>
+        </google-map>
+      </div>
+    </client-only>
   </div>
 </template>
 <script>
@@ -66,6 +95,41 @@ export default {
       title: `Contact | ${this.$siteConfig.siteName}`
     }
   },
-  components: { ContactForm }
+  components: { ContactForm },
+  data() {
+    return {
+      defaultMapOptions: {
+        zoom: 8,
+        minZoom: 3,
+        center: {
+          lat: 41.89193,
+          lng: 12.51133
+        }
+      },
+      showInfo: false,
+      infoWIndowContext: {
+        position: {
+          lat: 44.2899,
+          lng: 11.8774
+        }
+      }
+      // infoWindowsList: cities
+    }
+  },
+  methods: {
+    toggleInfoWindow(context) {
+      this.infoWIndowContext = context
+      this.showInfo = true
+    },
+    infoClicked(context) {
+      console.log(context)
+    }
+  }
 }
 </script>
+<style>
+.customMap {
+  width: 900px;
+  height: 500px;
+}
+</style>

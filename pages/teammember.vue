@@ -1,7 +1,9 @@
 <template>
   <div id="our-team" class="grid-container">
     <div class="grid-x grid-margin-x align-center">
-      <div class="cell small-12 work"><h1>Our Team</h1></div>
+      <div class="cell small-12 work">
+        <h1>Our Team</h1>
+      </div>
       <div class="cell small-12 medium-6 large-3">
         <img
           src="https://prioritypixels.co.uk/wp-content/uploads/2019/09/paul-clapp-300x300.jpg"
@@ -61,3 +63,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: `TeamMember | ${this.$siteConfig.siteName}`
+    }
+  }
+}
+</script>
