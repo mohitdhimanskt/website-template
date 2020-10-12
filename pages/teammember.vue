@@ -175,7 +175,7 @@ export default {
 .opti-image-loaded + .spinner-wrapper {
   display: none;
 }
-.col-12 {
+.member {
   display: flex;
   // grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
   // gap: calc(var(--space) * 2);
@@ -183,7 +183,7 @@ export default {
   padding: 0;
   margin-top: 10px;
 }
-.section {
+.member {
   position: relative;
   border-radius: 3px;
   border: 1px solid #e7e7e7;
