@@ -1,6 +1,6 @@
 ---
 name: Walking Trip
-image: /uploads/at_triund.jpg.jpg
+image: /uploads/walking.jpg
 description: >-
   
 
