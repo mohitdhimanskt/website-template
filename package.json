@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-gtag": "^1.0.4",
@@ -48,6 +48,8 @@
     "url-parse": "^1.4.7",
     "v-runtime-template": "^1.10.0",
     "vue-disqus": "^3.0.5",
+    "vue-share-buttons": "^1.1.0",
+    "vue-share-social": "^0.3.2",
     "vuejs-google-maps": "^0.0.10"
   },
   "devDependencies": {

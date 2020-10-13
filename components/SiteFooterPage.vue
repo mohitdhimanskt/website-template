@@ -84,7 +84,7 @@
             href="https://www.twitter.com/"
             target="_blank"
           >
-            <i class="fa fa-twitter"></i>
+            <i class=""></i>
           </a>
           <a
             class="social-button linkedin"
