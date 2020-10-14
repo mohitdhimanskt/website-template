@@ -16,8 +16,12 @@
         <div class="post-wrapper">
           <markdown :markdown="$store.state.content" />
           <div class="share">
-            <ShareFacebook url="http:allcategory" />
-            <ShareTwitter url="http://recruit.istyle.co.jp/career/" />
+            <ShareFacebook
+              url="https://zen-newton-225ff0.netlify.app/getting-started-with-awake"
+            />
+            <ShareTwitter
+              url="https://zen-newton-225ff0.netlify.app/getting-started-with-awake"
+            />
           </div>
           <div class="other-posts">
             <h6 class="subtitle is-size-4">
