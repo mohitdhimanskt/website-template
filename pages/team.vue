@@ -1,7 +1,27 @@
 <template>
   <div>
-    <site-hero title="Team Member" image="/uploads/team-hero.jpg"></site-hero>
-
+    <site-hero title="Team" image="/uploads/team-hero.jpg"></site-hero>
+    <div class="creative">
+      <h1 class="font">
+        Our Creative Team
+      </h1>
+      <p class="font2">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident
+      </p>
+      <p class="font3">
+        Images from
+        <b>
+          <a
+            href="https://www.freepik.com/photos/people"
+            class="u-border-2 u-border-white u-btn u-button-style u-none u-text-body-alt-color u-btn-1"
+          >
+            FREEPIK
+          </a>
+        </b>
+      </p>
+    </div>
     <div class="template">
       <div class="member">
         <img
@@ -76,7 +96,6 @@
             <loading-spinner position="absolute" />
           </figure>
         </component>
-
         <div class="template">
           <div class="media">
             <div class="media-content">
@@ -181,7 +200,7 @@ export default {
   // gap: calc(var(--space) * 2);
   margin: 10px;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 65px;
   text-align: center;
 }
 .member {
@@ -200,8 +219,26 @@ h2 {
   color: inherit;
   text-align: center;
 }
+
 p {
   text-align: center;
+}
+.font {
+  font-size: 3.75rem;
+  width: 726px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+.font2 {
+  font-style: italic;
+  width: 548px;
+  margin: 16px auto 0;
+}
+.font3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.875rem;
+  margin: 20px auto 0;
 }
 .card img {
   transition: 0.8s ease-in-out all;

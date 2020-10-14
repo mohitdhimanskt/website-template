@@ -15,14 +15,22 @@
       <template v-slot:default>
         <div class="post-wrapper">
           <markdown :markdown="$store.state.content" />
+          <div class="share">
+            <ShareFacebook
+              url="https://zen-newton-225ff0.netlify.app/getting-started-with-awake"
+            />
+            <ShareTwitter
+              url="https://zen-newton-225ff0.netlify.app/getting-started-with-awake"
+            />
+          </div>
           <div class="other-posts">
             <h6 class="subtitle is-size-4">
-              Related Posts
+              <!-- Related Posts -->
             </h6>
             <!-- Related Posts -->
-            <posts-grid :number="3" :category="category" :exclude="slug" />
+            <!-- <posts-grid :number="3" :category="category" :exclude="slug" /> -->
           </div>
-          <disqus-comments :identifier="$route.params.singlePost" />
+          <!-- <disqus-comments :identifier="$route.params.singlePost" /> -->
         </div>
       </template>
       <template v-slot:sidebar>
@@ -32,6 +40,7 @@
   </div>
 </template>
 <script>
+import { ShareFacebook, ShareTwitter } from 'vue-share-social'
 import { mapState } from 'vuex'
 import { setPageData, getFormattedDate } from '../helper'
 // import 'highlight.js/styles/github.css'
@@ -40,7 +49,9 @@ import PostSidebar from '~/components/PostSidebar'
 export default {
   components: {
     Markdown,
-    PostSidebar
+    PostSidebar,
+    ShareFacebook,
+    ShareTwitter
   },
   computed: {
     ...mapState([
@@ -67,5 +78,8 @@ export default {
 <style scoped lang="scss">
 .edit-post {
   margin-bottom: 20px;
+}
+.share {
+  text-align: center;
 }
 </style>

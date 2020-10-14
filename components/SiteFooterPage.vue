@@ -77,35 +77,35 @@
             href="https://www.facebook.com/"
             target="_blank"
           >
-            <i class="fa fa-facebook"></i>
+            <font-awesome-icon :icon="['fab', 'facebook']" class="icon alt" />
           </a>
           <a
             class="social-button twitter"
             href="https://www.twitter.com/"
             target="_blank"
           >
-            <i class="fa fa-twitter"></i>
+            <font-awesome-icon :icon="['fab', 'twitter']" class="icon alt" />
           </a>
           <a
             class="social-button linkedin"
             href="https://www.linkedin.com/"
             target="_blank"
           >
-            <i class="fa fa-linkedin"></i>
+            <font-awesome-icon :icon="['fab', 'linkedin']" class="icon alt" />
           </a>
           <a
             class="social-button youtube"
             href="https://www.youtube.com/"
             target="_blank"
           >
-            <i class="fa fa-youtube"> </i>
+            <font-awesome-icon :icon="['fab', 'youtube']" class="icon alt" />
           </a>
           <a
             class="social-button instagram"
             href="https://www.instagram.com/"
             target="_blank"
           >
-            <i class="fa fa-instagram"></i>
+            <font-awesome-icon :icon="['fab', 'instagram']" class="icon alt" />
           </a>
         </div>
       </div>
@@ -114,6 +114,18 @@
   <!--/ End Footer Top -->
 </template>
 <script>
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import {
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faYoutube,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons'
+
+library.add(faYoutube, faTwitter, faFacebook, faLinkedin, faInstagram)
+
 export default {
   name: 'SiteFooterPage'
 }
@@ -122,6 +134,7 @@ export default {
 .footer-top {
   padding: 90px 0 120px;
   background: rgba(33, 34, 39, 0.78) none repeat scroll 0 0;
+  margin-top: 65px;
 }
 .container {
   max-width: 1300px;
@@ -237,7 +250,7 @@ textarea {
 
 .rounded-social-buttons {
   display: flex;
-  margin-left: 500px;
+  margin-left: 520px;
   margin-bottom: -55px;
 }
 

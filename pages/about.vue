@@ -1,11 +1,7 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
-    <main-section theme="sidebar-right">
+    <site-hero title="About Us" image="/uploads/about-hero.jpg"></site-hero>
+    <main-section theme="sidebar">
       <template v-slot:default>
         <div class="content">
           <h3>Trekking</h3>
@@ -93,3 +89,4 @@ export default {
   components: { QuoteCard }
 }
 </script>
+<style scoped></style>
