@@ -76,6 +76,10 @@
             <loading-spinner position="absolute" />
           </figure>
         </component>
+<<<<<<< HEAD
+=======
+
+>>>>>>> aeccdfa348063521e28e66a11318662adede1e6b
         <div class="template">
           <div class="media">
             <div class="media-content">
