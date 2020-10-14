@@ -134,6 +134,7 @@ export default {
 .footer-top {
   padding: 90px 0 120px;
   background: rgba(33, 34, 39, 0.78) none repeat scroll 0 0;
+  margin-top: 65px;
 }
 .container {
   max-width: 1300px;
