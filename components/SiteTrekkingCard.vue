@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="trekking">
     <div class="col-12">
       <div class="section">
         <component :is="link ? 'nuxt-link' : 'span'" :to="link">
@@ -109,6 +109,16 @@ export default {
 <style lang="scss">
 .opti-image-loaded + .spinner-wrapper {
   display: none;
+}
+.trekking {
+  display: inline-block;
+  margin-top: 2.25rem;
+  margin-left: 161px;
+  margin-right: -205px;
+  // grid-gap: 20px;
+  gap: 20px;
+  /* flex-wrap: wrap-reverse; */
+  // margin-bottom: calc(1.5rem - 0.75rem);
 }
 .col-12 {
   display: flex;

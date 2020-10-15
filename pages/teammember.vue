@@ -203,6 +203,27 @@ h2 {
 p {
   text-align: center;
 }
+<<<<<<< Updated upstream:pages/teammember.vue
+=======
+.font {
+  font-style: italic;
+  font-size: 3.75rem;
+  width: 726px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+.font2 {
+  font-style: italic;
+  width: 548px;
+  margin: 16px auto 0;
+}
+.font3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.875rem;
+  margin: 20px auto 0;
+}
+>>>>>>> Stashed changes:pages/team.vue
 .card img {
   transition: 0.8s ease-in-out all;
   &:hover {
