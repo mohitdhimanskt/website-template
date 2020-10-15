@@ -27,8 +27,8 @@ export default {
       link: '/contact'
     },
     {
-      name: 'TeamMember',
-      link: '/teammember'
+      name: 'Team',
+      link: '/team'
     },
     {
       name: 'Categories',

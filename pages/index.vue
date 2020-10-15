@@ -60,7 +60,7 @@
       image="https://renokadventures.com/wp-content/uploads/2016/09/28464279894_7b42c0574c_z-1.jpg"
     ></SiteTrekkingCard>
     <SiteTrekkingCard
-      title="3 Days Dharamshala Trekking Tour Himachal Pradesh"
+      title="3 Days Shimla Trekking Tour Himachal Pradesh"
       image="https://www.nativeplanet.com/img/2017/04/pic5-05-1491387866.jpg"
     ></SiteTrekkingCard>
     <SiteTrekkingCard
@@ -76,7 +76,7 @@
       image="https://images.thrillophilia.com/image/upload/s--f5G2TFKw--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/110/565/original/1492157230_Tosh_glacier.jpg.jpg?1492157230"
     ></SiteTrekkingCard>
     <SiteTrekkingCard
-      title="5 Days Khir Ganga Trekking Tour Himachal Pradesh"
+      title="5 Days Ganga Trekking Tour Himachal Pradesh"
       image="https://www.trawell.in/admin/images/upload/454282746Kullu_Kheer_Ganga_Main.jpg"
     ></SiteTrekkingCard>
   </div>

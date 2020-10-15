@@ -1,12 +1,7 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-<<<<<<< Updated upstream
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
-    <main-section theme="sidebar-right">
+    <site-hero title="About Us" image="/uploads/about-hero.jpg"></site-hero>
+    <main-section theme="sidebar">
       <template v-slot:default>
         <div class="content">
           <h3>Trekking</h3>
@@ -16,44 +11,30 @@
             and enjoying the scenery. Trekking could be a motive, It could be a
             commitment, an aim, an objective, a mission, a party.
           </p>
-=======
-    <site-hero title="About Us" image="/uploads/about-hero.jpg"></site-hero>
-    <div class="section">
-      <main-section theme="sidebar">
-        <template v-slot:default>
-          <div class="content">
-            <h3>Trekking</h3>
-            <p>
-              Trekking is an outdoor activity of walking for more than a day.It
-              is a form of walking, undertaken with the specific purpose of
-              exploring and enjoying the scenery. Trekking could be a motive, It
-              could be a commitment, an aim, an objective, a mission, a party.
-            </p>
->>>>>>> Stashed changes
 
-            <h3>Importance of Trekking</h3>
-            <p>
-              Everest base camp trekking Company basically provides two types
-              trekking which are Teahouse Trekking, Camping Trekking, and Hiring
-              guide and porters. Teahouse is the local lodge where you can eat
-              and sleep during your trek. If you are going for a teahouse trek,
-              you will have to stay in this type of accommodations. Whereas,
-              Camping trek is a fully Organised Supported Trek.
-            </p>
-            <quote-card />
-            <h3>Types of Trekking</h3>
-            <p>
-              Everest base camp trekking Company basically provides two types
-              trekking which are Teahouse Trekking, Camping Trekking, and Hiring
-              guide and porters. Teahouse is the local lodge where you can eat
-              and sleep during your trek. If you are going for a teahouse trek,
-              you will have to stay in this type of accommodations. Whereas,
-              Camping trek is a fully Organised Supported Trek.
-            </p>
-          </div>
+          <h3>Importance of Trekking</h3>
+          <p>
+            Everest base camp trekking Company basically provides two types
+            trekking which are Teahouse Trekking, Camping Trekking, and Hiring
+            guide and porters. Teahouse is the local lodge where you can eat and
+            sleep during your trek. If you are going for a teahouse trek, you
+            will have to stay in this type of accommodations. Whereas, Camping
+            trek is a fully Organised Supported Trek.
+          </p>
+          <quote-card />
+          <h3>Types of Trekking</h3>
+          <p>
+            Everest base camp trekking Company basically provides two types
+            trekking which are Teahouse Trekking, Camping Trekking, and Hiring
+            guide and porters. Teahouse is the local lodge where you can eat and
+            sleep during your trek. If you are going for a teahouse trek, you
+            will have to stay in this type of accommodations. Whereas, Camping
+            trek is a fully Organised Supported Trek.
+          </p>
+        </div>
 
-          <div class="tile is-ancestor">
-            <!-- <div class="tile is-parent">
+        <div class="tile is-ancestor">
+          <!-- <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
                 Cool Stuff We Do
@@ -66,7 +47,7 @@
               </figure>
             </article>
           </div> -->
-            <!-- <div class="tile is-parent">
+          <!-- <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
                 Other Cool Things
@@ -79,7 +60,7 @@
               </figure>
             </article>
           </div> -->
-            <!-- <div class="tile is-parent">
+          <!-- <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
                 All the cool
@@ -92,10 +73,9 @@
               </figure>
             </article>
           </div> -->
-          </div>
-        </template>
-      </main-section>
-    </div>
+        </div>
+      </template>
+    </main-section>
   </div>
 </template>
 <script>
@@ -109,9 +89,6 @@ export default {
   components: { QuoteCard }
 }
 </script>
-<<<<<<< Updated upstream
-=======
-<style scoped></style>
 <style scoped>
 .section {
   margin-left: 45px;
@@ -120,4 +97,3 @@ export default {
   margin-left: 300px;
 }
 </style>
->>>>>>> Stashed changes

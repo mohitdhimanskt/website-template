@@ -113,8 +113,8 @@ export default {
 .trekking {
   display: inline-block;
   margin-top: 2.25rem;
-  margin-left: 161px;
-  margin-right: -205px;
+  margin-left: 160px;
+  margin-right: -200px;
   // grid-gap: 20px;
   gap: 20px;
   /* flex-wrap: wrap-reverse; */
