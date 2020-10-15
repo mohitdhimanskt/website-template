@@ -19,6 +19,11 @@
       </template>
     </main-section>
     <news-letter-form-modal />
+    <SiteDestination></SiteDestination>
+    <!-- <SiteDestinationCard title="Manali" image="/uploads/himalayas.jpeg">
+    </SiteDestinationCard>
+    <SiteDestinationCard title="shimla" image="/uploads/himalayas.jpeg">
+    </SiteDestinationCard> -->
     <SiteFeaturedTemplate></SiteFeaturedTemplate>
     <SiteFeaturedCard
       title="5 days of tour in himachal pradesh"

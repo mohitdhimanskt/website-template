@@ -10,6 +10,8 @@ import SiteFooter from '../components/SiteFooter'
 import SiteHero from '../components/SiteHero'
 import SiteLogo from '../components/SiteLogo'
 import SiteNav from '../components/SiteNav'
+import SiteDestination from '../components/SiteDestination'
+import SiteDestinationCard from '../components/SiteDestinationCard'
 import SiteFeaturedTemplate from '~/components/SiteFeaturedTemplate'
 import SiteFeaturedCard from '~/components/SiteFeaturedCard'
 import SiteWalking from '~/components/SiteWalking'
@@ -31,6 +33,8 @@ Vue.component(SiteFooter.name, SiteFooter)
 Vue.component(SiteHero.name, SiteHero)
 Vue.component(SiteLogo.name, SiteLogo)
 Vue.component(SiteNav.name, SiteNav)
+Vue.component(SiteDestination.name, SiteDestination)
+Vue.component(SiteDestinationCard.name, SiteDestinationCard)
 Vue.component(SiteFeaturedTemplate.name, SiteFeaturedTemplate)
 Vue.component(SiteFeaturedCard.name, SiteFeaturedCard)
 Vue.component(SiteWalking.name, SiteWalking)

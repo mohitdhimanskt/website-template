@@ -1,7 +1,7 @@
 <template>
-  <div class="trekking">
-    <div class="col-12">
-      <div class="section">
+  <div class="destinationCard">
+    <div class="select">
+      <div class="seleted">
         <component :is="link ? 'nuxt-link' : 'span'" :to="link">
           <figure :class="`image is-${imageRatioClass}`">
             <opti-image
@@ -16,9 +16,9 @@
           </figure>
         </component>
 
-        <div class="template">
-          <div class="media">
-            <div class="media-content">
+        <div class="select1">
+          <div class="media1">
+            <div class="media-content2">
               <nuxt-link :to="link">
                 <h3
                   :class="
@@ -40,7 +40,6 @@
                   <slot></slot>
                 </h4>
               </nuxt-link>
-              <a class="btn primary" href="">View More</a>
             </div>
           </div>
         </div>
@@ -51,7 +50,7 @@
 <script>
 const imageDimensionDefault = '16x9'
 export default {
-  name: 'SiteTrekkingCard',
+  name: 'SiteDestinationCard',
   props: {
     title: { type: String, default: '' },
     image: { type: String, default: '' },
@@ -110,59 +109,12 @@ export default {
 .opti-image-loaded + .spinner-wrapper {
   display: none;
 }
-.trekking {
-  display: inline-block;
-  margin-top: 2.25rem;
-  margin-left: 40px;
-  margin-right: -80px;
-  // grid-gap: 20px;
-  gap: 20px;
-  /* flex-wrap: wrap-reverse; */
-  // margin-bottom: calc(1.5rem - 0.75rem);
-}
-.col-12 {
+.select {
   display: flex;
-  // grid-template-columns: repeat(auto-fit, minmax(18.75rem, 0.5fr));
-  // gap: calc(var(--space) * 2);
-  margin: 10px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
   padding: 0;
-  margin-top: 10px;
-}
-.section {
-  position: relative;
-  border-radius: 3px;
-  border: 1px solid #e7e7e7;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  margin-right: 40px;
-}
-h3 {
-  font-size: 18px;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  color: inherit;
-}
-.btn {
-  margin: 0 auto;
-}
-.btn {
-  color: #fff;
-  padding: 13px 25px;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 600;
-  background: #0072bb;
-  border-radius: 3px;
-  position: relative;
-  box-shadow: none;
-  display: inline-block;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  border: none;
 }
 .card img {
   transition: 0.8s ease-in-out all;
