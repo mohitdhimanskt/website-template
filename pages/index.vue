@@ -20,10 +20,33 @@
     </main-section>
     <news-letter-form-modal />
     <SiteDestination></SiteDestination>
-    <!-- <SiteDestinationCard title="Manali" image="/uploads/himalayas.jpeg">
+    <SiteDestinationCard title="Manali" image="/uploads/himalayas.jpeg">
     </SiteDestinationCard>
-    <SiteDestinationCard title="shimla" image="/uploads/himalayas.jpeg">
-    </SiteDestinationCard> -->
+    <SiteDestinationCard
+      title="shimla"
+      image="https://www.weekendthrill.com/wp-content/uploads/2017/06/shimla2-min.jpeg"
+    >
+    </SiteDestinationCard>
+    <SiteDestinationCard
+      title="Kullu"
+      image="https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg"
+    >
+    </SiteDestinationCard>
+    <SiteDestinationCard
+      title="kherGanga"
+      image="https://www.trawell.in/admin/images/upload/454282746Kullu_Kheer_Ganga_Main.jpg"
+    >
+    </SiteDestinationCard>
+    <SiteDestinationCard
+      title="Bir"
+      image="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_1316/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1580145945%2Fdk4v76za7xz8uap92ney.jpg"
+    >
+    </SiteDestinationCard>
+    <SiteDestinationCard
+      title="Kasol"
+      image="https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover-for-10-Treks-Near-Kasol.jpg"
+    >
+    </SiteDestinationCard>
     <SiteFeaturedTemplate></SiteFeaturedTemplate>
     <SiteFeaturedCard
       title="5 days of tour in himachal pradesh"

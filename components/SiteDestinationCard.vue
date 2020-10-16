@@ -1,45 +1,49 @@
 <template>
-  <div class="destinationCard">
-    <div class="select">
-      <div class="seleted">
-        <component :is="link ? 'nuxt-link' : 'span'" :to="link">
-          <figure :class="`image is-${imageRatioClass}`">
-            <opti-image
-              v-if="image"
-              :src="responsiveImage.src"
-              :srcset="responsiveImage.srcSet"
-              :width="imageRatio[0]"
-              :height="imageRatio[1]"
-              :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
-            />
-            <loading-spinner position="absolute" />
-          </figure>
-        </component>
+  <div class="service">
+    <div class="destinationCard">
+      <div class="text">
+        <div class="text1">
+          <component :is="link ? 'nuxt-link' : 'span'" :to="link">
+            <figure :class="`image is-${imageRatioClass}`">
+              <opti-image
+                v-if="image"
+                :src="responsiveImage.src"
+                :srcset="responsiveImage.srcSet"
+                :width="imageRatio[0]"
+                :height="imageRatio[1]"
+                :sizes="
+                  `(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`
+                "
+              />
+              <loading-spinner position="absolute" />
+            </figure>
+          </component>
 
-        <div class="select1">
-          <div class="media1">
-            <div class="media-content2">
-              <nuxt-link :to="link">
-                <h3
-                  :class="
-                    `title
+          <div class="text2">
+            <div class="media">
+              <div class="media-content">
+                <nuxt-link :to="link">
+                  <h3
+                    :class="
+                      `title
                 is-5
                 has-text-weight-light
                 ${title ? '' : 'empty-content-placeholder'}`
-                  "
-                >
-                  {{ title }}
-                </h3>
-                <h4
-                  :class="{
-                    subtitle: true,
-                    'is-6': true,
-                    'empty-content-placeholder': !$slots.default
-                  }"
-                >
-                  <slot></slot>
-                </h4>
-              </nuxt-link>
+                    "
+                  >
+                    {{ title }}
+                  </h3>
+                  <h4
+                    :class="{
+                      subtitle: true,
+                      'is-6': true,
+                      'empty-content-placeholder': !$slots.default
+                    }"
+                  >
+                    <slot></slot>
+                  </h4>
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>
@@ -80,46 +84,26 @@ export default {
   }
 }
 </script>
-<style scoped lang="scss">
-.subtitle {
-  opacity: 0.5;
-  font-size: 0.8rem;
+<style scoped>
+.service {
+  display: inline-flex;
+  margin-left: 271px;
+  margin-right: -163px;
 }
-.empty-content-placeholder {
-  background: transparent;
-  color: transparent;
-  position: relative;
-  height: 1em;
-  &:before {
-    transform-origin: left;
-    content: '';
-    background: #eee;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    animation: fillHorizontal 2s linear infinite;
-  }
-  &.subtitle {
-    width: 70%;
-  }
-}
-</style>
-<style lang="scss">
-.opti-image-loaded + .spinner-wrapper {
-  display: none;
-}
-.select {
+.destinationCard {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
-.card img {
-  transition: 0.8s ease-in-out all;
-  &:hover {
-    transform: scale(1.02);
-  }
+.text {
+  border: solid 1px #f2f2f2;
+  margin: 5px;
+}
+.text1 {
+  height: 206px;
+  width: 300px;
+  object-fit: cover;
+}
+.title.is-5 {
+  text-align: center;
 }
 </style>

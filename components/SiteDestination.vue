@@ -22,7 +22,7 @@ export default {
 <style scoped>
 h2 span {
   display: block;
-  color: black;
+  color: red;
   text-align: center;
   font-size: 30px;
 }

@@ -50,6 +50,7 @@
     "url-parse": "^1.4.7",
     "v-runtime-template": "^1.10.0",
     "vue-disqus": "^3.0.5",
+    "vue-headful": "^2.1.0",
     "vue-share-buttons": "^1.1.0",
     "vue-share-social": "^0.3.2",
     "vue-socialmedia-share": "^1.0.1",
